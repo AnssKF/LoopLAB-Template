@@ -1,0 +1,62 @@
+html{
+    font-family: inherit, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 3000px;
+}
+
+/* START NAV-BAR */
+
+nav#MAIN-NAV-BAR {
+    opacity: 0.97;
+    z-index: 4000;
+}
+
+/* END NAV-BAR */
+
+/* START MAIN-AREA */
+
+header#MAIN-AREA {
+    height: 100vh;
+    background: #FFF url('../img/home.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+
+header#MAIN-AREA .dark-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+header#MAIN-AREA .home-content .v-center{
+    top:50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+
+/* START SIGNUP FORM */
+
+header#MAIN-AREA .signup-form .card-title{
+    font-size: 2em;
+}
+
+header#MAIN-AREA .signup-form .card-subtitle{
+    font-size: 1em;
+}
+
+/* END SIGNUP FORM */
+
+/* END MAIN-AREA */
+
+
+/* CONTACT-US-MODAL */
+
+#CONTACT-US-MODAL {
+    z-index: 5000;
+}
